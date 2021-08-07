@@ -31,7 +31,7 @@ while n != 1:
     y_axis.append(n)
 
     print(n)
-    
+
     if(n % 2 == 0):
         n = n / 2
     else:
@@ -41,8 +41,8 @@ while n != 1:
 
 # plot n on graph
 
-#plt.plot(x_axis, y_axis, color="blue", marker="o", linestyle="dashed", linewidth=1, markerfacecolor="green", markersize=10)
-#plt.xlabel("Iteration")
-#plt.ylabel("n")
-#plt.title("Collatz Conjecture Series")
-#plt.show()
+plt.plot(x_axis, y_axis, color="blue", marker="o", linestyle="dashed", linewidth=1, markerfacecolor="green", markersize=10)
+plt.xlabel("Iteration")
+plt.ylabel("n")
+plt.title("Collatz Conjecture Series")
+plt.show()
