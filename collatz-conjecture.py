@@ -1,6 +1,8 @@
 # The Collatz Conjecture
 # https://www.youtube.com/watch?v=094y1Z2wpJg
 #
+# Code to generate pretty graphs showing the collatz conjecture in action
+#
 # Narendra Nag
 # Aug 7, 2021
 
